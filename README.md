@@ -37,7 +37,13 @@ Everything works through **Poke** (SMS/iMessage/WhatsApp) — no separate app. P
 | **Shopping** | Stagehand (Browserbase) | Web automation, price comparison |
 | **Infra** | Elastic Cloud, Vercel, Render | Production deployment |
 
-## Quick Start
+## Deployment
+
+For production deployment (Render + Vercel), see **[DEPLOYMENT.md](./DEPLOYMENT.md)** for step-by-step instructions.
+
+---
+
+## Quick Start (Local)
 
 ### 1. Backend
 

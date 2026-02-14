@@ -319,4 +319,5 @@ async def shop(product_query: str) -> str:
 
 
 if __name__ == "__main__":
-    mcp.run(transport="streamable-http", host="0.0.0.0", port=8001)
+    port = int(os.getenv("PORT", 8001))
+    mcp.run(transport="streamable-http", host="0.0.0.0", port=port)
